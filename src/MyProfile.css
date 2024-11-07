@@ -1,0 +1,114 @@
+/* src/MyProfile.css */
+
+/* Center everything within the profile container */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Circular image */
+  .profile-image-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px; /* Added some margin */
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Bio section */
+  .bio-section {
+    margin-bottom: 20px; /* Added space between bio and social icons */
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .projects-section h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .projects {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .project h4 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .project p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .project-link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social media icons section (below Read More) */
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
